@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StartScreen</string>
+    <string name="text_trulyMadly">trulymadly</string>
+    <string name="text_findYourForever">#FindYourForever</string>
+    <string name="text_mobile">Continue with Mobile</string>
+    <string name="text_facebook">Continue with Facebook</string>
+    <string name="text_number">What\'s your mobile number?</string>
+    <string name="text_yourNumber">Your Mobile Number</string>
+    <string name="text_verificationCode">Verification Code</string>
+    <string name="text_code">+91</string>
+    <string name="text_otp">GET OTP</string>
+    <string name="text_continue">Continue</string>
+    <string name="text_login">Log in With Facebook</string>
+    <string name="text_tmWillReceive"> <b>Truly Madly</b> will receive:</string>
+    <string name="text_editThis">Edit This</string>
+    <string name="text_letTheApp">This doesn\'t let the app post to Facebook</string>
+    <string name="text_continueAsFacebookUser">Continue as Facebook User</string>
+    <string name="text_privacy">TrulyMadly\'s Privacy Policy and Terms</string>
+    <string name="text_nameAndProfilePicture">your name and profile picture, email address, birthday, photos, gender, Page likes, current city and friends list.</string>
+    <string name="text_otpHelp">If OTP doesn\'t verify automatically, enter the 4 digit code we sent to the number entered above.</string>
+    <string name="text_tAndC">By Clicking above, you agree with our</string>
+    <string name="text_tAndC2"><u>Terms and Conditions</u> and <u>Privacy Policy.</u></string>
+</resources>
