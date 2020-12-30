@@ -19,4 +19,6 @@
     <color name="grey">#C3C3C3</color>
     <color name="grey_1">#696969</color>
     <color name="red">#F50057</color>
+    <color name="pink_navigation">#DD9BA1</color>
+    <color name="blue_hashtag">#CEDEF5</color>
 </resources>
