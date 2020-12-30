@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">StartScreen</string>
     <string name="text_trulyMadly">trulymadly</string>
     <string name="text_findYourForever">#FindYourForever</string>
@@ -20,4 +21,16 @@
     <string name="text_otpHelp">If OTP doesn\'t verify automatically, enter the 4 digit code we sent to the number entered above.</string>
     <string name="text_tAndC">By Clicking above, you agree with our</string>
     <string name="text_tAndC2"><u>Terms and Conditions</u> and <u>Privacy Policy.</u></string>
+    <string name="next">Next</string>
+    <string name="About_You">About You </string>
+    <string name="hint_name">Name</string>
+    <string name="hint_Surname">Surname</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_date">DD/MM/YYYY</string>
+    <string name="male">Male</string>
+    <string name="Female">Female</string>
+    <string name="basic_detail">Basic Details</string>
+    <string name="hint_height"> 5 feet 5 inches </string>
+    <string name="hint_relationship">Relationship Status</string>
+    <string name="hint_city">Mumbai</string>
 </resources>

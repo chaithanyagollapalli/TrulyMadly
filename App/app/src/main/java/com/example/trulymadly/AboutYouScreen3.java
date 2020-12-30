@@ -7,22 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class FacebookLoginScreen extends AppCompatActivity {
-    private Button mBtnContinueFb;
+public class AboutYouScreen3 extends AppCompatActivity {
+    private Button btnNext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_facebook_login_screen);
+        setContentView(R.layout.activity_about__you_screen_3);
 
-        mBtnContinueFb=findViewById(R.id.btnContinueFb);
-        mBtnContinueFb.setOnClickListener(new View.OnClickListener() {
+        btnNext = findViewById(R.id.btnNext);
+        btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(FacebookLoginScreen.this, AboutYouScreen3.class);
+
+                Intent intent = new Intent(AboutYouScreen3.this, BasicDetailsScreen4.class);
                 startActivity(intent);
+
             }
         });
-
     }
 }

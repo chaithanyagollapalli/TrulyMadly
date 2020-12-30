@@ -17,4 +17,6 @@
     <color name="number">#2CADCC</color>
     <color name="continue_button">#EB3987</color>
     <color name="grey">#C3C3C3</color>
+    <color name="grey_1">#696969</color>
+    <color name="red">#F50057</color>
 </resources>
