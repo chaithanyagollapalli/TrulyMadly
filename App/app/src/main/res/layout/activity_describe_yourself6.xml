@@ -48,17 +48,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_adventurous" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_ambitious" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_ambivert" />
 
 
@@ -76,17 +76,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_artist" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_bikeLover" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_calm" />
 
 
@@ -104,17 +104,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_caring" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_carLover" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_chaiLover" />
 
 
@@ -132,17 +132,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_charming" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_cheerful" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_chocaholic" />
 
 
@@ -160,17 +160,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_coffeeLover" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_creative" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_curious" />
 
 
@@ -188,17 +188,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_danceaholic" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_divorced" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_dogLover" />
 
 
@@ -216,17 +216,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_dreamer" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_emotional" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_energetic" />
 
 
@@ -244,17 +244,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_entertainer" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_entrepreneur" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_extrovert" />
 
 
@@ -272,17 +272,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_faithful" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_feminist" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_fitnessFreak" />
 
                 </LinearLayout>
@@ -299,17 +299,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_foodie" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_friendly" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_funny" />
 
 
@@ -327,17 +327,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_gadgetLover" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_gameAddict" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_geek" />
 
 
@@ -355,17 +355,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_independent" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_intellectual" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_introvert" />
 
 
@@ -383,17 +383,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_kind" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_loyal" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_moody" />
 
 
@@ -411,17 +411,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_Motivated" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_movieManiac" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_musicLover" />
 
 
@@ -439,17 +439,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_mysterious" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_natureLover" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_nightowl" />
 
 
@@ -468,17 +468,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_openMinded" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_optimistic" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_partyHopper" />
 
                 </LinearLayout>
@@ -495,17 +495,17 @@
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_reader" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_romantic" />
 
                     <TextView
                         style="@style/hashTag_box_style"
-                        android:background="@drawable/rectangle_blue_hashTag"
+                        android:background="@drawable/rectangle_blue_hashtag"
                         android:text="@string/text_sapiosexual" />
                 </LinearLayout>
 
