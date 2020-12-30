@@ -32,7 +32,7 @@
     <string name="basic_detail">Basic Details</string>
     <string name="hint_height"> 5 feet 5 inches </string>
     <string name="hint_relationship">Relationship Status</string>
-    <string name="hint_city">Mumbai</string>
+    <string name="hint_city">City</string>
     <string name="text_adventurous">#Adventurous</string>
     <string name="text_ambitious">#Ambitious</string>
     <string name="text_ambivert">#Ambivert</string>
