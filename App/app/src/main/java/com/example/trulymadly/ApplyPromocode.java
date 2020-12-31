@@ -2,17 +2,13 @@ package com.example.trulymadly;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-public class EducationInformation extends AppCompatActivity {
+public class ApplyPromocode extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_education_information);
-
+        setContentView(R.layout.activity_apply_promocode);
     }
 }

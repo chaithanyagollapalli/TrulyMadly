@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_215">215dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_28">28sp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_330">330dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
 </resources>

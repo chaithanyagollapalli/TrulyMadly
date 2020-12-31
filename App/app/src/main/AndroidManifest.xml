@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrulyMadly">
-        <activity android:name=".EducationInformation"></activity>
+        <activity android:name=".BoostActivity"></activity>
+        <activity android:name=".MessageSendapp" />
+        <activity android:name=".Conversation" />
+        <activity android:name=".Conversations" />
+        <activity android:name=".BuyBoost" />
+        <activity android:name=".ApplyPromocode" />
+        <activity android:name=".EditPreferences" />
+        <activity android:name=".Seting" />
+        <activity android:name=".EducationInformation" />
         <activity android:name=".BasicDetailsScreen4" />
         <activity android:name=".AboutYouScreen3" />
         <activity android:name=".FacebookLoginScreen" />

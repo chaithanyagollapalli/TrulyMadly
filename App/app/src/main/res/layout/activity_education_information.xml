@@ -70,7 +70,7 @@
             android:text="work"
             android:textSize="@dimen/sp_20" />
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_graduate_cap"
@@ -82,7 +82,7 @@
             android:paddingTop="70dp"
             android:textColorHint="@color/black" />
 
-        <EditText
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_suitcase"

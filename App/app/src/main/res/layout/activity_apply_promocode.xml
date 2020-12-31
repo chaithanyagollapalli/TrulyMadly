@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyPromocode">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btnpromocodes"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Promo Codes"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_left_arrow"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_10"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnpromocodes"
+        android:text="Apply Promo Code"
+        android:id="@+id/btnapplypromocode"
+        android:textSize="@dimen/sp_20"
+        android:textColor="#c43f76"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_20"/>
+    <EditText
+        android:layout_width="@dimen/dp_150"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnpromocodes"
+   app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/ic_envelope_front_for_mail"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/sp_20"/>
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toBottomOf="@id/btnpromocodes"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:hint="@string/hint_promo_code"
+    android:layout_marginTop="@dimen/dp_50"
+    android:layout_marginLeft="@dimen/dp_25"/>
+
+    <Button
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_50"
+            android:background="#EE0153"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnpromocodes"
+            android:layout_marginTop="@dimen/dp_50"
+            android:layout_marginRight="@dimen/dp_20"
+            android:text="Apply"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

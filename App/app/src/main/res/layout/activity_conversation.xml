@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conversation">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/mtvconversations"
+        android:layout_height="@dimen/dp_100"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conversations"
+            android:textSize="@dimen/dp_30"
+            android:layout_gravity="center"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/ic_baseline_arrow_back_ios_24"
+           android:layout_marginTop="@dimen/dp_40"
+           android:layout_marginLeft="@dimen/dp_20"/>
+    </androidx.cardview.widget.CardView>
+    
+    
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="@dimen/dp_100"
+           app:layout_constraintTop_toBottomOf="@id/mtvconversations">
+           <ImageView
+               android:layout_width="@dimen/dp_100"
+               android:layout_height="@dimen/dp_100"
+               android:src="@drawable/picturecircular"
+               android:layout_marginLeft="@dimen/dp_20"/>
+           
+           <Button
+               android:id="@+id/btnconversations"
+               android:layout_width="@dimen/dp_250"
+               android:layout_height="@dimen/dp_100"
+               android:layout_marginLeft="120dp"
+               android:background="@color/white"
+               android:text="@string/text_MissTMname"
+               android:textAllCaps="false"
+               android:paddingRight="30dp"
+               android:paddingBottom="@dimen/dp_30"
+               android:textSize="@dimen/dp_16"
+               />
+
+
+
+
+
+
+
+           
+       </androidx.cardview.widget.CardView>
+           
+   
+
+</androidx.constraintlayout.widget.ConstraintLayout>
