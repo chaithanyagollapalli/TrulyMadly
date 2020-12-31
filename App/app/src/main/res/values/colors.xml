@@ -14,9 +14,14 @@
     <color name="edit_this">#93ADFC</color>
     <color name="let_the_app">#5A626B</color>
     <color name="privacy_terms">#89A2FD</color>
+    <color name="icons_color">#ACC7E7</color>
     <color name="number">#2CADCC</color>
     <color name="continue_button">#EB3987</color>
     <color name="grey">#C3C3C3</color>
     <color name="grey_1">#696969</color>
     <color name="red">#F50057</color>
+    <color name="pink_navigation">#DD9BA1</color>
+    <color name="blue_hashtag">#CEDEF5</color>
+    <color name="top_navigation">#FFB3B9</color>
+    <color name="grey_dark">#B8B8B8</color>
 </resources>
