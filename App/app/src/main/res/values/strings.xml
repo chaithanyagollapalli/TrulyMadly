@@ -33,4 +33,8 @@
     <string name="hint_height"> 5 feet 5 inches </string>
     <string name="hint_relationship">Relationship Status</string>
     <string name="hint_city">Mumbai</string>
+    <string name="profiles">Profiles</string>
+    <string name="study">Study</string>
+    <string name="report"><u>Report</u></string>
+    <string name="degree"> Bachelors in Commerce </string>
 </resources>
