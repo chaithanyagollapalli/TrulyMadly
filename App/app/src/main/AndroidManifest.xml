@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrulyMadly">
+<<<<<<< HEAD
+
+        <activity android:name=".Imageone" />
+        <activity android:name=".BasicDetailsScreen4" />
+=======
         <activity android:name=".DescribeYourself6"></activity>
         <activity android:name=".EducationInformation"></activity>
         <activity android:name=".BasicDetailsScreen4"/>
+>>>>>>> c44875eeb17fe8dc5d917047bc076444db9a7b31
         <activity android:name=".AboutYouScreen3" />
         <activity android:name=".FacebookLoginScreen" />
         <activity android:name=".MobileLoginScreen" />
