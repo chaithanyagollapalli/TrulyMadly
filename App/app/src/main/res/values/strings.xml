@@ -33,7 +33,7 @@
     <string name="hint_height"> 5 feet 5 inches </string>
     <string name="hint_relationship">Relationship Status</string>
     <string name="profiles">Profiles</string>
-    <string name="study">Study</string>
+    <string name="student">Student</string>
     <string name="report"><u>Report</u></string>
     <string name="degree"> Bachelors in Commerce </string>
     <string name="hint_city">City</string>
@@ -104,4 +104,20 @@
     <string name="text_">#Charming</string>
     <string name="text_save">Save</string>
     <string name="text_tapBelow">Tap below to describe yourself in atleast 3 words</string>
+    <string name="text_ranbir">Ranbir, 25</string>
+    <string name="text_boost">Boost</string>
+    <string name="text_sparks">Sparks</string>
+    <string name="text_earnCash">Earn Cash</string>
+    <string name="text_profileVisibility">Profile Visibility</string>
+    <string name="text_preferences">Preferences</string>
+    <string name="text_applyPromo">Apply Promo Code</string>
+    <string name="text_Settings">Settings</string>
+    <string name="text_rateUs">Rate Us</string>
+    <string name="text_coronaStats">Corona Stats</string>
+    <string name="text_safeLove">Safe Love</string>
+    <string name="text_notificationCenter">Notification Center</string>
+    <string name="text_joinNow">Join Now</string>
+    <string name="text_findTheOne">FIND THE ONE</string>
+    <string name="text_trulymadly2">TRULY MADLY</string>
+    <string name="text_select">Select</string>
 </resources>

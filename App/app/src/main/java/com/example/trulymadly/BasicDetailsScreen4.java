@@ -6,9 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 import static com.example.trulymadly.R.layout.activity_basic_detail_screen_4;
-
 
 public class BasicDetailsScreen4 extends AppCompatActivity {
     private Button mBtnNext2;
