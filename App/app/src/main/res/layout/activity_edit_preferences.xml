@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPreferences">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Preference"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/ic_vector"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/btnagerange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age Range"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/btnagenumber"
+        android:layout_height="@dimen/dp_75"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/rectangle_age"
+        android:layout_marginTop="110dp"
+        android:text="18-30"
+        android:textSize="17sp"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_50"
+        android:textColor="@color/black"
+        android:paddingStart="@dimen/dp_140"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/btnLocationPreference"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/btnagenumber"
+        android:text="Location Preferences"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        app:layout_constraintLeft_toLeftOf="@id/btnagerange"
+        android:layout_marginTop="@dimen/dp_14"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/rectangle_age"
+        app:layout_constraintTop_toBottomOf="@id/btnLocationPreference"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_215"
+        android:text="Near Me"
+        android:id="@+id/btnNearme"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="@dimen/sp_22"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:background="@drawable/rectangle_location"
+        app:layout_constraintTop_toBottomOf="@id/btnLocationPreference"
+        android:layout_marginLeft="@dimen/dp_215"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="Smart Location"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="@dimen/sp_22"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btnprofileVisibility"
+        android:background="@drawable/rectangle_age"
+        app:layout_constraintTop_toBottomOf="@id/btnNearme"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:text="Profile Visibility"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_10"
+       android:drawableEnd="@drawable/ic_power"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btnShowmeNRI"
+        android:background="@drawable/rectangle_age"
+        app:layout_constraintTop_toBottomOf="@id/btnprofileVisibility"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:text="Show me NRI Profiles"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_10"
+        android:drawableEnd="@drawable/ic_toggle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/btnShowprofilepreferences"
+        android:background="@drawable/rectangle_age"
+        app:layout_constraintTop_toBottomOf="@id/btnShowmeNRI"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:text="Show profiles similar to my preferences"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_22"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingStart="@dimen/dp_10"
+        android:drawableEnd="@drawable/ic_power"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle_save"
+        app:layout_constraintTop_toBottomOf="@id/btnShowprofilepreferences"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="@dimen/dp_10"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="22sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:background="@drawable/ic_minus"
+        android:id="@+id/btnminus"
+        app:layout_constraintTop_toBottomOf="@id/btnagerange"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25"/>
+
+    <TextView
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:background="@drawable/circle_6"
+        app:layout_constraintTop_toBottomOf="@id/btnagerange"
+        android:layout_marginTop="@dimen/dp_14"
+    app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="110dp"
+
+        />
+
+    <TextView
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_marginLeft="24dp"
+        android:background="@drawable/circle_6"
+        app:layout_constraintTop_toBottomOf="@id/btnagerange"
+        android:layout_marginTop="@dimen/dp_14"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="@id/btnprofileVisibility"
+    android:drawableStart="@drawable/ic_baseline_info_24"
+    app:layout_constraintTop_toBottomOf="@id/btnNearme"
+    app:layout_constraintStart_toEndOf="@id/btnNearme"
+    android:layout_marginTop="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

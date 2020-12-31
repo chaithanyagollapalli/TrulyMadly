@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessageSendapp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miss TM"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="160dp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+            android:src="@drawable/picturecircular"
+            android:layout_marginLeft="@dimen/dp_50" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_left_arrow"
+android:layout_marginTop="35dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:drawableStart="@drawable/ic_smile"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:drawableEnd="@drawable/ic_send"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_10"/>
+
+<EditText
+    android:id="@+id/btnsendmessage"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:background="@drawable/rectangle_message"
+    android:layout_marginLeft="65dp"
+    android:layout_marginRight="65dp"
+    android:hint="Send Message"
+    android:layout_marginBottom="@dimen/dp_20"
+    android:paddingStart="@dimen/dp_20"
+    android:textSize="@dimen/sp_22"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/rectangle_message2"
+app:layout_constraintBottom_toTopOf="@id/btnsendmessage"
+        android:layout_marginBottom="@dimen/dp_50"
+        android:text="@string/text_longText"
+        android:textSize="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_60"
+        android:id="@+id/btnlongtextrectangle"
+        android:paddingStart="@dimen/dp_10"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toTopOf="@id/btnsendmessage"
+    android:text=":http://bit.ly//SeeSelect"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginBottom="@dimen/dp_55"
+    android:layout_marginLeft="@dimen/dp_55"
+    android:textColor="#0000ff"
+    android:textSize="@dimen/dp_25"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11:42 AM"
+        app:layout_constraintBottom_toTopOf="@id/btnsendmessage"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/btnlongtextrectangle"
+        android:text="Tue Dec 29,2020"
+        android:textColor="#EE0153"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="@dimen/sp_22"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
