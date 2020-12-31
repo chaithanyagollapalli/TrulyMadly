@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.trulymadly">
+    package="com.example.trulymadly" >
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TrulyMadly">
+        android:theme="@style/Theme.TrulyMadly" >
+        <activity android:name=".NavigationMenuDrawer" >
+        </activity>
+        <activity android:name=".Imageone" />
+        <activity android:name=".DescribeYourself6" />
+        <activity android:name=".EducationInformation" />
         <activity android:name=".BoostActivity"></activity>
         <activity android:name=".MessageSendapp" />
         <activity android:name=".Conversation" />
@@ -22,13 +27,17 @@
         <activity android:name=".AboutYouScreen3" />
         <activity android:name=".FacebookLoginScreen" />
         <activity android:name=".MobileLoginScreen" />
-        <activity android:name=".StartScreen">
+        <activity android:name=".StartScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
