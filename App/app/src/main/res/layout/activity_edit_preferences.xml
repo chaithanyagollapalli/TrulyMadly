@@ -108,7 +108,7 @@
         android:textSize="@dimen/sp_22"
         android:paddingTop="@dimen/dp_20"
         android:paddingStart="@dimen/dp_10"
-       android:drawableEnd="@drawable/ic_on"/>
+       android:drawableEnd="@drawable/ic_power"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -140,7 +140,7 @@
         android:textSize="@dimen/sp_22"
         android:paddingTop="@dimen/dp_10"
         android:paddingStart="@dimen/dp_10"
-        android:drawableEnd="@drawable/ic_on"/>
+        android:drawableEnd="@drawable/ic_power"/>
 
     <Button
         android:layout_width="match_parent"
