@@ -32,11 +32,15 @@
     <string name="basic_detail">Basic Details</string>
     <string name="hint_height"> 5 feet 5 inches </string>
     <string name="hint_relationship">Relationship Status</string>
-    <string name="hint_city">Mumbai</string>
+    <string name="hint_city">Location</string>
     <string name="text_Setting">Settings</string>
     <string name="trusty_security"><![CDATA[Trusty & security]]></string>
-    <string name="text_MissTMname">"Miss TM          Yesterday Hey there! Welcome to Truly…"</string>
-    <string name="text_longText">Hey there ! Welcome to TrulyMadly. Now Finding the one just got way easier! Upgrade to the all new experience of TrulyMadly Select. Get more profile,more profile views,access to features such as compatibility quiz,bio,ad free experience and much more!Join now </string>
+    <string name="text_aliaChat">Alia Bhatt</string>
+    <string name="text_messageAlia">Hey. How is the next film shapi...</string>
+    <string name="text_longText">Hey there! Welcome to TrulyMadly. Now finding the one just got way
+        easier! Upgrade to the all new experience of TrulyMadly Select. Get more profiles,more
+        profile views, access to features such as compatibility quiz, bio, ad free experience and
+        much more! Join now: </string>
     <string name="text_Privacy">Privacy</string>
     <string name="text_profile_visibility">Profile visibility</string>
     <string name="text_notifications_alert_type">Notifications alert type</string>
@@ -50,7 +54,7 @@
     <string name="text_safety_guidelines">Safety guidelines</string>
     <string name="text_true_compatibility">True compatibility</string>
     <string name="text_log_out">Log Out</string>
-    <string name="text_5">5.32(1143)</string>
+    <string name="text_5">5.32 (1143)</string>
     <string name="text_delete_my_account">Delete My Account</string>
     <string name="hint_promo_code">Promo Code</string>
     <string name="text_buy_boots">Buy Boots</string>
@@ -142,4 +146,22 @@
     <string name="text_findTheOne">FIND THE ONE</string>
     <string name="text_trulymadly2">TRULY MADLY</string>
     <string name="text_select">Select</string>
+    <string name="text_time">12:23 AM</string>
+    <string name="text_missTm">Miss TM</string>
+    <string name="text_missTmChat">Hey there! Welcome to TrulyM...</string>
+    <string name="text_time2">11:47 PM</string>
+    <string name="text_editPreferences">Edit Preferences</string>
+    <string name="text_ageRange">Age Range</string>
+    <string name="text_ageRange2">18-30</string>
+    <string name="text_locationPreferences">Location Preferences</string>
+    <string name="text_near_me">Near Me</string>
+    <string name="text_smart_location">Smart Location</string>
+    <string name="text_advancedPreferences">Advanced Preferences</string>
+    <string name="text_showMe">Show me NRI Profiles</string>
+    <string name="text_ShowProfilesPreferences">Show profiles similar to my preferences</string>
+    <string name="text_sendMessage">Send Message</string>
+    <string name="text_link"><u>http://bit.ly//SeeSelect</u></string>
+    <string name="text_date">Tue Dec 29,2020</string>
+    <string name="text_aliaConversation">Hey. How is the next film shaping up? Will meet after the packup tomorrow?</string>
+    <string name="text_conversations">Conversations</string>
 </resources>

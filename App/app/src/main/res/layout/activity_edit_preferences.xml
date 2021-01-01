@@ -7,191 +7,241 @@
     tools:context=".EditPreferences">
 
     <TextView
+        android:id="@+id/tvEditPreferences"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit Preference"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/text_editPreferences"
         android:textColor="@color/black"
-        android:textStyle="bold"
-        android:textSize="26sp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="@dimen/sp_20"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="@dimen/dp_20"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <ImageButton
+        android:id="@+id/ibBackButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_24"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_vector"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:background="@drawable/ic_vector"
-        android:layout_marginTop="23dp"
-        android:layout_marginLeft="@dimen/dp_20"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/btnagerange"
+        android:id="@+id/tvAgeRange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Age Range"
-        android:textStyle="bold"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="@string/text_ageRange"
         android:textColor="@color/black"
-        android:textSize="@dimen/sp_22"
+        android:textSize="@dimen/sp_18"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="80dp"
-        android:layout_marginLeft="@dimen/dp_20"/>
+        app:layout_constraintTop_toBottomOf="@id/ibBackButton" />
 
     <TextView
+        android:id="@+id/tvAgeRange2"
         android:layout_width="match_parent"
-        android:id="@+id/btnagenumber"
-        android:layout_height="@dimen/dp_75"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_10"
         android:background="@drawable/rectangle_age"
-        android:layout_marginTop="110dp"
-        android:text="18-30"
-        android:textSize="17sp"
-        android:layout_marginLeft="@dimen/dp_20"
-        android:layout_marginRight="@dimen/dp_20"
-        android:paddingTop="@dimen/dp_50"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_40"
+        android:paddingBottom="@dimen/dp_10"
+        android:text="@string/text_ageRange2"
         android:textColor="@color/black"
-        android:paddingStart="@dimen/dp_140"/>
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAgeRange" />
 
     <TextView
+        android:id="@+id/tvLocationPreferences"
         android:layout_width="wrap_content"
-        android:id="@+id/btnLocationPreference"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnagenumber"
-        android:text="Location Preferences"
-        android:textStyle="bold"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/text_locationPreferences"
         android:textColor="@color/black"
-        android:textSize="@dimen/sp_22"
-        app:layout_constraintLeft_toLeftOf="@id/btnagerange"
-        android:layout_marginTop="@dimen/dp_14"/>
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintLeft_toLeftOf="@id/tvAgeRange"
+        app:layout_constraintTop_toBottomOf="@id/tvAgeRange2" />
+
     <TextView
+        android:id="@+id/tvNearMe"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_50"
-        android:background="@drawable/rectangle_age"
-        app:layout_constraintTop_toBottomOf="@id/btnLocationPreference"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_5"
         android:layout_marginRight="@dimen/dp_215"
-        android:text="Near Me"
-        android:id="@+id/btnNearme"
-        android:textColor="@color/black"
+        android:background="@drawable/rectangle_age"
         android:gravity="center"
-        android:textSize="@dimen/sp_22"
-        android:layout_marginTop="@dimen/dp_20"/>
+        android:padding="@dimen/dp_10"
+        android:text="@string/text_near_me"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintTop_toBottomOf="@id/tvLocationPreferences" />
 
     <TextView
+        android:id="@+id/tvSmartLocation"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_50"
-        android:background="@drawable/rectangle_location"
-        app:layout_constraintTop_toBottomOf="@id/btnLocationPreference"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/dp_215"
+        android:layout_marginTop="@dimen/dp_5"
         android:layout_marginRight="@dimen/dp_20"
-        android:text="Smart Location"
-        android:textColor="@color/black"
+        android:background="@drawable/rectangle_location"
         android:gravity="center"
-        android:textSize="@dimen/sp_22"
-        android:layout_marginTop="@dimen/dp_20"/>
+        android:padding="@dimen/dp_10"
+        android:text="@string/text_smart_location"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintTop_toBottomOf="@id/tvLocationPreferences" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:id="@+id/btnprofileVisibility"
-        android:background="@drawable/rectangle_age"
-        app:layout_constraintTop_toBottomOf="@id/btnNearme"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginRight="@dimen/dp_20"
-        android:layout_marginLeft="@dimen/dp_20"
-        android:text="Profile Visibility"
+        android:id="@+id/tvAdvancedPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/text_advancedPreferences"
         android:textColor="@color/black"
-        android:textSize="@dimen/sp_22"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingStart="@dimen/dp_10"
-       android:drawableEnd="@drawable/ic_power"/>
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintLeft_toLeftOf="@id/tvAgeRange"
+        app:layout_constraintTop_toBottomOf="@+id/tvNearMe" />
 
     <TextView
+        android:id="@+id/tvProfileVisibility2"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:id="@+id/btnShowmeNRI"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
         android:background="@drawable/rectangle_age"
-        app:layout_constraintTop_toBottomOf="@id/btnprofileVisibility"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginRight="@dimen/dp_20"
-        android:layout_marginLeft="@dimen/dp_20"
-        android:text="Show me NRI Profiles"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_15"
+        android:text="@string/text_profileVisibility"
         android:textColor="@color/black"
-        android:textSize="@dimen/sp_22"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingStart="@dimen/dp_10"
-        android:drawableEnd="@drawable/ic_toggle"/>
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintStart_toStartOf="@id/tvAgeRange"
+        app:layout_constraintTop_toBottomOf="@id/tvAdvancedPreferences" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/tvProfileVisibility2"
+        android:src="@drawable/ic_baseline_info_24"
+        android:padding="@dimen/sp_20"
+        android:paddingStart="@dimen/dp_110"
+        app:layout_constraintStart_toStartOf="@id/tvProfileVisibility2"
+        android:layout_height="wrap_content"/>
 
     <TextView
+        android:id="@+id/tvShowMe"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:id="@+id/btnShowprofilepreferences"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
         android:background="@drawable/rectangle_age"
-        app:layout_constraintTop_toBottomOf="@id/btnShowmeNRI"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginRight="@dimen/dp_20"
-        android:layout_marginLeft="@dimen/dp_20"
-        android:text="Show profiles similar to my preferences"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_15"
+        android:text="@string/text_showMe"
         android:textColor="@color/black"
-        android:textSize="@dimen/sp_22"
-        android:paddingTop="@dimen/dp_10"
-        android:paddingStart="@dimen/dp_10"
-        android:drawableEnd="@drawable/ic_power"/>
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintStart_toStartOf="@id/tvAgeRange"
+        app:layout_constraintTop_toBottomOf="@id/tvProfileVisibility2" />
+
+    <TextView
+        android:id="@+id/tvShowSimilarPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@drawable/rectangle_age"
+        android:gravity="center_vertical"
+        android:padding="@dimen/dp_20"
+        android:paddingStart="@dimen/dp_15"
+        android:text="@string/text_ShowProfilesPreferences"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintStart_toStartOf="@id/tvAgeRange"
+        app:layout_constraintTop_toBottomOf="@id/tvShowMe" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:id="@+id/btnSave2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_20"
         android:background="@drawable/rectangle_save"
-        app:layout_constraintTop_toBottomOf="@id/btnShowprofilepreferences"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginLeft="260dp"
-        android:layout_marginRight="@dimen/dp_10"
-        android:text="Save"
+        android:paddingStart="@dimen/dp_25"
+        android:paddingEnd="@dimen/dp_25"
+        android:text="@string/text_save"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:gravity="center"
-        android:textSize="22sp"/>
+        android:textSize="@dimen/sp_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvShowSimilarPreferences" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-android:background="@drawable/ic_minus"
         android:id="@+id/btnminus"
-        app:layout_constraintTop_toBottomOf="@id/btnagerange"
-        android:layout_marginTop="@dimen/dp_20"
-        android:layout_marginLeft="@dimen/dp_25"
-        android:layout_marginRight="@dimen/dp_25"/>
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_25"
+        android:layout_marginEnd="@dimen/dp_30"
+        android:background="@color/grey_1"
+        app:layout_constraintTop_toTopOf="@id/tvAgeRange2" />
 
     <TextView
         android:layout_width="@dimen/dp_30"
         android:layout_height="@dimen/dp_30"
-        android:background="@drawable/circle_6"
-        app:layout_constraintTop_toBottomOf="@id/btnagerange"
-        android:layout_marginTop="@dimen/dp_14"
-    app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="110dp"
-
-        />
+        android:layout_marginTop="12dp"
+        android:background="@drawable/circle_6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvAgeRange2" />
 
     <TextView
         android:layout_width="@dimen/dp_30"
         android:layout_height="@dimen/dp_30"
         android:layout_marginLeft="24dp"
+        android:layout_marginTop="@dimen/dp_12"
         android:background="@drawable/circle_6"
-        app:layout_constraintTop_toBottomOf="@id/btnagerange"
-        android:layout_marginTop="@dimen/dp_14"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvAgeRange2" />
 
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    app:layout_constraintBottom_toBottomOf="@id/btnprofileVisibility"
-    android:drawableStart="@drawable/ic_baseline_info_24"
-    app:layout_constraintTop_toBottomOf="@id/btnNearme"
-    app:layout_constraintStart_toEndOf="@id/btnNearme"
-    android:layout_marginTop="20dp"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_30"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/tvProfileVisibility2"
+        app:layout_constraintTop_toTopOf="@id/tvProfileVisibility2" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_30"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/tvShowMe"
+        app:layout_constraintTop_toTopOf="@id/tvShowMe" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_20"
+        android:paddingEnd="@dimen/dp_30"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@id/tvShowSimilarPreferences"
+        app:layout_constraintTop_toTopOf="@id/tvShowSimilarPreferences" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
