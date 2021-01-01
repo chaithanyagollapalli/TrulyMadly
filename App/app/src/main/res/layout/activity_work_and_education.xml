@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EducationInformation">
+    tools:context=".WorkAndEducation">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -70,7 +70,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
-                android:id="@+id/tvDegree"
+                android:id="@+id/etHighestDegree"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dp_15"
@@ -87,6 +87,7 @@
                 app:layout_constraintTop_toBottomOf="@id/tvWork" />
 
             <EditText
+                android:id="@+id/etOccupation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/dp_15"
@@ -98,7 +99,7 @@
                 android:hint="Occupation"
                 android:padding="@dimen/dp_15"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvDegree" />
+                app:layout_constraintTop_toBottomOf="@id/etHighestDegree" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
