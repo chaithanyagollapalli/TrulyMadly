@@ -11,8 +11,6 @@
         android:theme="@style/Theme.TrulyMadly">
         <activity android:name=".AliaChat"></activity>
         <activity android:name=".NavigationMenuDrawer" />
-        android:theme="@style/Theme.TrulyMadly">
-        <activity android:name=".Myprofile"></activity>
         <activity android:name=".ranbir" />
         <activity android:name=".ranveer" />
         <activity android:name=".kartik" />
@@ -20,7 +18,6 @@
         <activity android:name=".sara" />
         <activity android:name=".deepika" />
         <activity android:name=".katrina" />
-        <activity android:name=".NavigationMenuDrawer" />
         <activity android:name=".Imageone" />
         <activity android:name=".DescribeYourself6" />
         <activity android:name=".BoostActivity" />
