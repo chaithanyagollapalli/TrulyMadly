@@ -182,8 +182,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="76dp"
-                    android:onClick="checkButton"
                     android:layout_marginTop="13dp"
+                    android:onClick="checkButton"
                     android:text="@string/Female"
                     android:textColor="@color/black" />
             </RadioGroup>
@@ -196,30 +196,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-    <!--
-
-     <RadioButton
-                android:id="@+id/radioButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/dp_20"
-                android:layout_marginTop="13dp"
-                android:text="@string/male"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/tvgender"
-                app:layout_constraintTop_toBottomOf="@+id/etDate" />
-
-            <RadioButton
-                android:id="@+id/radioButton2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/dp_30"
-                android:layout_marginTop="13dp"
-                android:text="@string/Female"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/radioButton"
-                app:layout_constraintTop_toBottomOf="@+id/etDate" />-->
