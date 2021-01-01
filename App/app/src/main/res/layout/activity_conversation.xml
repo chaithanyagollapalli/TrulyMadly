@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Conversation">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvConversations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/dp_100"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/dp_20"
+            android:text="@string/text_conversations"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_20"
+            android:background="@drawable/ic_baseline_chevron_left_24" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAlia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cvConversations">
+
+        <ImageView
+            android:id="@+id/ivAliaChat"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_75"
+            android:background="@color/white"
+            android:src="@drawable/chat_alia"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cvConversations" />
+
+        <TextView
+            android:id="@+id/btnconversations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="@dimen/dp_15"
+            android:text="@string/text_aliaChat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            app:layout_constraintStart_toEndOf="@id/ivAliaChat"
+            app:layout_constraintTop_toBottomOf="@id/cvConversations" />
+
+        <TextView
+            android:id="@+id/tvAliaMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="@dimen/dp_40"
+            android:text="@string/text_messageAlia"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintStart_toEndOf="@+id/ivAliaChat"
+            app:layout_constraintTop_toBottomOf="@+id/btnconversations" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_25"
+            android:text="@string/text_time"
+            app:layout_constraintStart_toEndOf="@+id/tvAliaMessage"
+            app:layout_constraintTop_toBottomOf="@id/cvConversations" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMissTim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvAlia">
+
+        <ImageView
+            android:id="@+id/ivMissTm"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_75"
+            android:layout_marginTop="@dimen/dp_1"
+            android:background="@color/white"
+            android:src="@drawable/chat_miss_tm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cvAlia" />
+
+        <TextView
+            android:id="@+id/tvMissTm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="@dimen/dp_15"
+            android:text="@string/text_missTm"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            app:layout_constraintStart_toEndOf="@id/ivMissTm"
+            app:layout_constraintTop_toBottomOf="@+id/cvAlia" />
+
+        <TextView
+            android:id="@+id/tvMissTmMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="@dimen/dp_40"
+            android:text="@string/text_missTmChat"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintStart_toEndOf="@+id/ivMissTm"
+            app:layout_constraintTop_toBottomOf="@id/tvMissTm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/dp_40"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_25"
+            android:text="@string/text_time2"
+            app:layout_constraintStart_toEndOf="@id/tvMissTmMessage"
+            app:layout_constraintTop_toBottomOf="@+id/cvAlia" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
