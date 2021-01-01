@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.trulymadly">
+    package="com.example.trulymadly" >
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,13 @@
         android:theme="@style/Theme.TrulyMadly">
         <activity android:name=".AliaChat"></activity>
         <activity android:name=".NavigationMenuDrawer" />
+        <activity android:name=".ranbir" />
+        <activity android:name=".ranveer" />
+        <activity android:name=".kartik" />
+        <activity android:name=".kapoor" />
+        <activity android:name=".sara" />
+        <activity android:name=".deepika" />
+        <activity android:name=".katrina" />
         <activity android:name=".Imageone" />
         <activity android:name=".DescribeYourself6" />
         <activity android:name=".BoostActivity" />
