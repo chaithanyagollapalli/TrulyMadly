@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Imageone">
+    tools:context=".kapoor">
+
 
     <ImageButton
-        android:id="@+id/btnMenu"
+        android:id="@+id/btnMenuKapoor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp_10"
@@ -18,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/Profiles"
+        android:id="@+id/ProfilesKapoor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
@@ -35,12 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
         android:layout_marginEnd="@dimen/dp_20"
-        app:layout_constraintEnd_toStartOf="@+id/ibChart"
+        app:layout_constraintEnd_toStartOf="@+id/ibChartKapoor"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_percentage__1_"/>
 
     <ImageView
-        android:id="@+id/ibChart"
+        android:id="@+id/ibChartKapoor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
@@ -49,8 +50,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
-        android:id="@+id/rectangleLine"
+        android:id="@+id/rectangleLineKapoor"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_1"
         android:layout_marginTop="@dimen/dp_50"
@@ -58,7 +60,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:id="@+id/scrollVertical"
+        android:id="@+id/scrollVerticalKapoor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="51dp"
@@ -67,7 +69,7 @@
         app:layout_constraintTop_toBottomOf="@+id/rectangleLine">
 
         <LinearLayout
-            android:id="@+id/linearLayout"
+            android:id="@+id/linearLayoutKapoor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -75,7 +77,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="450dp"
-                android:scrollbarThumbHorizontal="@color/black">
+                android:scrollbarThumbHorizontal="@color/grey">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -86,19 +88,19 @@
                         android:layout_width="430dp"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/alia_1" />
+                        android:src="@drawable/kapoor_1" />
 
                     <ImageView
                         android:layout_width="430dp"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/alia_2" />
+                        android:src="@drawable/kapoor_2" />
 
                     <ImageView
                         android:layout_width="430dp"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:src="@drawable/alia_3" />
+                        android:src="@drawable/kapoor_3" />
                 </LinearLayout>
             </HorizontalScrollView>
 
@@ -118,7 +120,7 @@
                     android:paddingTop="@dimen/dp_5"
                     android:paddingEnd="@dimen/dp_10"
                     android:paddingBottom="@dimen/dp_5"
-                    android:text="@string/text_dogLover" />
+                    android:text="@string/text_safeLove" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -130,19 +132,7 @@
                     android:paddingTop="@dimen/dp_5"
                     android:paddingEnd="@dimen/dp_10"
                     android:paddingBottom="@dimen/dp_5"
-                    android:text="@string/text_foodie" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/dp_10"
-                    android:background="@drawable/rectangle_hashtag_black"
-                    android:gravity="center"
-                    android:paddingStart="@dimen/dp_10"
-                    android:paddingTop="@dimen/dp_5"
-                    android:paddingEnd="@dimen/dp_10"
-                    android:paddingBottom="@dimen/dp_5"
-                    android:text="@string/text_simple" />
+                    android:text="@string/text_charming" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -156,41 +146,53 @@
                     android:paddingBottom="@dimen/dp_5"
                     android:text="@string/text_fitnessFreak" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_10"
+                    android:background="@drawable/rectangle_hashtag_black"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/dp_10"
+                    android:paddingTop="@dimen/dp_5"
+                    android:paddingEnd="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_5"
+                    android:text="@string/text_ambitious" />
+
             </LinearLayout>
 
             <TextView
-                android:id="@+id/rectangleLine2"
+                android:id="@+id/rectangleLine2Kapoor"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_1"
                 android:layout_marginTop="@dimen/dp_15"
                 android:background="#C4C4C4" />
 
             <TextView
-                android:id="@+id/study"
+                android:id="@+id/studyKapoor"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/dp_20"
                 android:layout_marginTop="@dimen/dp_10"
                 android:drawableStart="@drawable/ic_briefcase"
                 android:drawablePadding="@dimen/dp_20"
-                android:text="@string/student"
+                android:text="@string/Doctors"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_18" />
 
             <TextView
-                android:id="@+id/degree"
+                android:id="@+id/degreeKapoor"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="@dimen/dp_20"
                 android:layout_marginTop="@dimen/dp_20"
                 android:drawableStart="@drawable/ic_graduation_hat"
                 android:drawablePadding="@dimen/dp_15"
-                android:text="@string/degree"
+                android:text="@string/mbbs"
                 android:textColor="@color/black"
                 android:textSize="@dimen/sp_18" />
 
             <TextView
-                android:id="@+id/rectangleLine3"
+                android:id="@+id/rectangleLine3Kapoor"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_1"
                 android:layout_marginTop="@dimen/dp_10"
@@ -203,7 +205,7 @@
                 android:weightSum="5">
 
                 <ImageButton
-                    android:id="@+id/ibBar1"
+                    android:id="@+id/ibBar1Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -211,7 +213,7 @@
                     android:src="@drawable/ic_film" />
 
                 <ImageButton
-                    android:id="@+id/ibBar2"
+                    android:id="@+id/ibBar2Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -219,7 +221,7 @@
                     android:src="@drawable/ic_music_note" />
 
                 <ImageButton
-                    android:id="@+id/ibBar3"
+                    android:id="@+id/ibBar3Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -227,7 +229,7 @@
                     android:src="@drawable/ic_book" />
 
                 <ImageButton
-                    android:id="@+id/ibBar4"
+                    android:id="@+id/ibBar4Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -235,7 +237,7 @@
                     android:src="@drawable/ic_knife" />
 
                 <ImageButton
-                    android:id="@+id/ibBar5"
+                    android:id="@+id/ibBar5Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -250,34 +252,34 @@
                 android:layout_marginTop="@dimen/dp_10">
 
                 <View
-                    android:id="@+id/viewNB1"
+                    android:id="@+id/viewNB1Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/navigation" />
 
                 <View
-                    android:id="@+id/viewNB2"
+                    android:id="@+id/viewNB2Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/navigation"
                     android:visibility="invisible" />
 
                 <View
-                    android:id="@+id/viewNB3"
+                    android:id="@+id/viewNB3Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/navigation"
                     android:visibility="invisible" />
 
                 <View
-                    android:id="@+id/viewNB4"
+                    android:id="@+id/viewNB4Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/navigation"
                     android:visibility="invisible" />
 
                 <View
-                    android:id="@+id/viewNB5"
+                    android:id="@+id/viewNB5Kapoor"
                     android:layout_width="wrap_content"
                     android:layout_height="1dp"
                     android:background="@color/navigation"
@@ -310,7 +312,7 @@
                     app:cardCornerRadius="@dimen/dp_50">
 
                     <ImageView
-                        android:id="@+id/imClose"
+                        android:id="@+id/imCloseKapoor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/dp_10"
@@ -328,6 +330,7 @@
 
 
                     <ImageView
+                        android:id="@+id/imRocketKapoor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/dp_15"
@@ -361,6 +364,7 @@
                     app:cardCornerRadius="@dimen/dp_50">
 
                     <ImageView
+                        android:id="@+id/imDoneKapoor"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:padding="@dimen/dp_10"
@@ -376,11 +380,5 @@
 
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
 
 
