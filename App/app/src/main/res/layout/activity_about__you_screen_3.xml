@@ -40,7 +40,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dp_5"
             android:drawableStart="@drawable/circle_2" />
-
     </LinearLayout>
 
     <Button
@@ -187,12 +186,6 @@
                     android:text="@string/Female"
                     android:textColor="@color/black" />
             </RadioGroup>
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
     </androidx.cardview.widget.CardView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
