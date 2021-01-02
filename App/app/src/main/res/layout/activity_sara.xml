@@ -36,12 +36,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
         android:layout_marginEnd="@dimen/dp_20"
-        app:layout_constraintEnd_toStartOf="@+id/ibChartSara"
+        app:layout_constraintEnd_toStartOf="@+id/ivChatSara"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_percentage__1_"/>
 
     <ImageView
-        android:id="@+id/ibChartSara"
+        android:id="@+id/ivChatSara"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
@@ -285,6 +285,18 @@
                     android:background="@color/navigation"
                     android:visibility="invisible" />
             </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp_30"
+                android:drawableStart="@drawable/ic_baseline_warning_24"
+                android:drawablePadding="@dimen/dp_5"
+                android:text="@string/report"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
