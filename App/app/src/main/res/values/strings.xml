@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">StartScreen</string>
+    <string name="app_name">TrulyMadly</string>
     <string name="text_trulyMadly">trulymadly</string>
     <string name="text_findYourForever">#FindYourForever</string>
     <string name="text_mobile">Continue with Mobile</string>
@@ -178,4 +178,15 @@
     <string name="text_date">Tue Dec 29,2020</string>
     <string name="text_aliaConversation">Hey. How is the next film shaping up? Will meet after the packup tomorrow?</string>
     <string name="text_conversations">Conversations</string>
+    <string name="title_activity_menu_drawer">MenuDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
 </resources>

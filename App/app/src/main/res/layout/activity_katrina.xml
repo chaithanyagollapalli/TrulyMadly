@@ -35,12 +35,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
         android:layout_marginEnd="@dimen/dp_20"
-        app:layout_constraintEnd_toStartOf="@+id/ibChartKatrina"
+        app:layout_constraintEnd_toStartOf="@+id/ivChatKatrina"
         app:layout_constraintTop_toTopOf="parent"
         android:src="@drawable/ic_percentage__1_"/>
 
     <ImageView
-        android:id="@+id/ibChartKatrina"
+        android:id="@+id/ivChatKatrina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"

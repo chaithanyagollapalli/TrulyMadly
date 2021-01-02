@@ -20,7 +20,7 @@ public class DescribeYourself6 extends AppCompatActivity {
         mBtnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DescribeYourself6.this, Imageone.class);
+                Intent intent = new Intent(DescribeYourself6.this, deepika.class);
                 startActivity(intent);
             }
         });
