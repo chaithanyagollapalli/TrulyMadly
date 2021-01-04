@@ -15,4 +15,4 @@ Truly Madly is one of the dating apps in India connecting singles.
 
 ## Cloned App
 
-<iframe src="https://giphy.com/embed/Xvik9fIBTKTyG0sm6I" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Xvik9fIBTKTyG0sm6I">via GIPHY</a></p>
+<img src="https://giphy.com/embed/Xvik9fIBTKTyG0sm6I"/>
