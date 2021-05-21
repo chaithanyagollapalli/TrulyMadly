@@ -1,18 +1,11 @@
-# TrulyMadly
+<h1 align="center">TrulyMadly - A Dating App Clone</h1>
 
-<img src="https://www.nextbigbrand.in/wp-content/uploads/2020/02/logo.png" width="320">
+<p align="center"><img src="https://www.nextbigbrand.in/wp-content/uploads/2020/02/logo.png" width="320"></p> <br>
 
 ## Intro
 
-The project statement given to us was to create a dynamic clone of TrulyMadly dating app.
-Truly Madly is one of the dating apps in India connecting singles.
+This is a project based on TrulyMadly, a dating app. Since we only knew about layouts when were doing this project, we tried to make a pixel perfect clone of the app. You can watch the preview down below.
 
-## Team Members
-
-1) Chaithanya Guptha Gollapalli: [GitHub Link] (https://github.com/chaithanyagollapalli)
-2) Harsh Kamaliya: [GitHub Link] (https://github.com/harshkamaliya)
-3) Prajwal: [GitHub Profile) (https://github.com/prajwal799)
-
-## Cloned App
-<img src="https://media1.giphy.com/media/Xvik9fIBTKTyG0sm6I/giphy.gif"/>
+## Preview
+<p align="center"><img src="https://media1.giphy.com/media/Xvik9fIBTKTyG0sm6I/giphy.gif" align="center"/> </p> <br>
 
